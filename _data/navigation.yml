@@ -27,10 +27,10 @@ main:
     url: /files/resume.pdf
     
   - title: "CV"
-    url: /cv/
+    url: /files/cv.pdf
     
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #  url: /markdown/
