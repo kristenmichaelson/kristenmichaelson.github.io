@@ -18,7 +18,7 @@ I'm actively seeking an engineering role in the San Francisco Bay Area. If you'r
 Featured Project: Automating Spacecraft Conjunction Assessment with AI
 ======
 ![Spacecraft conjunction assessment](/images/cover-photo.png){: .align-right width="300px"}
-How can we use AI to predict when two spacecraft get too close for comfort?
+How can we use AI to predict when two satellites will get too close for comfort?
 
 
 
