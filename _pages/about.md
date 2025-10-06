@@ -13,7 +13,7 @@ In my dissertation work, I focused on ***data assimilation***. Data assimilation
 
 Job Seeker Statement
 ======
-I'm actively seeking an engineering role in the San Francisco Bay Area. If you're hiring in the areas of aerospace guidance, navigation and control (GNC), navigation, estimation, self-driving, or robotics, let's connect!
+I'm actively seeking an engineering role in the San Francisco Bay Area. If you're hiring in the areas of aerospace guidance, navigation and control (GNC), estimation, or robotics, let's connect!
 
 Featured Project: Automating Spacecraft Conjunction Assessment with AI
 ======
