@@ -9,7 +9,7 @@ redirect_from:
 
 I'm an aerospace engineer and researcher passionate about making autonomous systems more autonomous. From self-driving cars to satellites in orbit, autonomous systems learn about their relationship to the world around them using sensors. 
 
-In my dissertation work, I focused on ***data assimilation***: the process of incorporating information from sensors into an estimate of the *state* of a dynamical system. An abbreviated version of my dissertation talk is available on YouTube.
+In my dissertation work, I focused on ***data assimilation:*** the process of incorporating information from sensors into an estimate of the *state* of a dynamical system. An abbreviated version of my dissertation talk is available on YouTube.
 
 Job Seeker Statement
 ======
