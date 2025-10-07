@@ -8,5 +8,5 @@ There's no denying it-- there are *a lot* of satellites in orbit around the Eart
 
 Earlier this year, I started thinking about how AI could help us predict future satellite collisions-- or, *conjunctions*. I began by simulating a set of 10 spacecraft in near-circular orbits. Each orbit has a slightly different altitude (± 1 km) and eccentricity, *e* ∈ [0.0, 0.001].
 
-![Spacecraft conjunction assessment](/images/orbits.png)
+![Spacecraft conjunction assessment](/images/orbits.png){: width="300px"}
 
