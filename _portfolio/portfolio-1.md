@@ -1,6 +1,6 @@
 ---
 title: "Automating Spacecraft Conjunction Assessment with AI"
-excerpt: "Towards AI forecasting for satellite collisions<br/><img src='/images/cover-photo.png' width="300">
+excerpt: "Towards AI forecasting for satellite collisions<br/><img src='/images/cover-photo.png' width='300'>
 collection: portfolio
 ---
 
@@ -30,5 +30,5 @@ One challenging in forecasting conjunctions with the distance history data we've
 
 Instead of training on the distance data directly, I formed datasets of the rolling *mean* and *amplitude* of the distance signal. By predicting the future mean and amplitude of the distance values, we can forecast the minimum distance between the spacecraft in the two-week prediction period.
 
-![Object 3 Object 4 Mean Amp History Long](/images/obj3_obj4_mean_amp_hist.png){: .align-center width="400px"}
-![Object 0 Object 6 Mean Amp History Long](/images/obj0_obj6_nean_amp_hist.png){: .align-center width="400px"}
+![Object 3 Object 4 Mean Amp History Long](/images/obj3_obj4_mean_amp.png){: .align-center width="400px"}
+![Object 0 Object 6 Mean Amp History Long](/images/obj0_obj6_mean_amp.png){: .align-center width="400px"}
