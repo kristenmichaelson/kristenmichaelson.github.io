@@ -1,6 +1,6 @@
 ---
 title: "Automating Spacecraft Conjunction Assessment with AI"
-excerpt: "Towards AI forecasting for satellite collisions<br/><img src='/images/cover-photo.png' width='300'>
+excerpt: "Towards AI forecasting for satellite collisions<br/><img src='/images/cover-photo.png' width='300'>"
 collection: portfolio
 ---
 
