@@ -1,6 +1,6 @@
 ---
 title: "Automating Spacecraft Conjunction Assessment with AI"
-excerpt: "Towards AI forecasting for satellite collisions<br/><img src='/images/cover-photo.png' style="width:300px;">
+excerpt: "Towards AI forecasting for satellite collisions<br/><img src='/images/cover-photo.png' width="300">
 collection: portfolio
 ---
 
@@ -22,4 +22,13 @@ Now, let's look at longer-term trends. These figures show the distances between 
 ![Object 3 Object 4 Conjunction History Long](/images/obj3_obj4_conjunction_hist.png){: .align-center width="400px"}
 ![Object 0 Object 6 Conjunction History Long](/images/obj0_obj6_conjunction_hist.png){: .align-center width="400px"}
 
-The distance histories now appear as thick bands, since the short-term oscilations are obscured by the longer time scale. Clearly, there is some structure in the signal over the longer time span as well. For both pairs of objects, many conjunctions occur together in short bursts. Then, the objects move away from each other for many days.
+The distance histories now appear as thick bands, since the short-term oscilations are obscured by the longer time scale. Clearly, there is some structure in the signal over the longer time span. For both pairs of objects, many conjunctions occur together in short bursts. Then, the objects move away from each other for a long time.
+
+**The goal is to train an AI model to predict the distances between pairs of objects in the near future.** The model is trained on 500 days of data. Then, it is used to predict conjunctions in the next 14 days.
+
+One challenging in forecasting conjunctions with the distance history data we've seen so far is the strong *seasonal* oscillation pattern; the rapid changes in distance over the 90 minute orbital period. These oscillations can obscure the "bigger picture"; i.e., whether the spacecraft are likely to experience conjunctions in the next two weeks or not.
+
+Instead of training on the distance data directly, I formed datasets of the rolling *mean* and *amplitude* of the distance signal. By predicting the future mean and amplitude of the distance values, we can forecast the minimum distance between the spacecraft in the two-week prediction period.
+
+![Object 3 Object 4 Mean Amp History Long](/images/obj3_obj4_mean_amp_hist.png){: .align-center width="400px"}
+![Object 0 Object 6 Mean Amp History Long](/images/obj0_obj6_nean_amp_hist.png){: .align-center width="400px"}
