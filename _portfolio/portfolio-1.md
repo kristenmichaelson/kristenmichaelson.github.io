@@ -44,7 +44,8 @@ In the future, approaches like this one will improve conjunction screening by fl
 
 Code for this project is available on Github.
 
-Selected References
+
+<u>Selected References</u>
 
 Emma Stevenson, Victor Rodriguez-Fernandez, Hodei Urrutxua, David Camacho. "Benchmarking Deep Learning Approaches for All-vs-All Conjunction Screening." *Advances in Space Research*, 2023.
 
