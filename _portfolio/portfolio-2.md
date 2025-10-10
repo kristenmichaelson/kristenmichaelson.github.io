@@ -1,6 +1,6 @@
 ---
 title: "Recursive Update Filtering: A New Approach"
-excerpt: "Maximum _a posteriori_ estimation via homotopy<br/><img src='/images/ode-bruf.png' width='300'>"
+excerpt: "Maximum _a posteriori_ estimation via homotopy<br/><img src='/images/ode-bruf.png' width='500'>"
 collection: portfolio
 ---
 Consider the _data assimilation_ (or _measurement update_ problem): given a prior state estimate with an associated uncertainty distribution, incorporate new information from a measurement. This new information should nudge the state estimate closer to the true state and reduce uncertainty.
@@ -19,7 +19,7 @@ $$ H = \frac{\partial h}{\partial x}. $$
 
 ${H}$ contains the set of derivatives of the measurement model $y = h(x) + \eta$ with respect to the states. The measurement has its own uncertainty, $\eta \sim \mathcal{N}(0,R)$. The figure below shows the result of the EKF update for a range measurement.
 
-![EKF](/images/portfolio-2/ekf.png){: .align-center width="300px"}
+![EKF](/images/portfolio-2/ekf.png){: .align-center width="500px"}
 
 In this figure, the prior state estimate is $\hat{x} = \begin{bmatrix} -2.5 & 0 \end{bmatrix}$. The prior distribution is Gaussian and centered at the prior state estimate. The measurement model is,
 
@@ -41,7 +41,7 @@ where $\hat{x}_{0} = \bar{x}$, $\hat{P}_0 = \bar{P}$, and $H_i = \partial h / \p
 
 The intuition behind the BRUF is that by inflating the measurement noise covariance to $NR$, we _trust_ the measurement less than we would have in a single EKF update. The figure below shows the result of $N=5$ BRUF updates for the range measurment. Interestingly, even with relatively few steps, the state estimate approaches the maximum _a posteriori_ (MAP) estimate, the maximizer of the posterior distribution.
 
-![BRUF](/images/portfolio-2/bruf.png){: .align-center width="300px"}
+![BRUF](/images/portfolio-2/bruf.png){: .align-center width="500px"}
 
 In later work, we presented a continuous formulation of the BRUF update. In this version, the following set of differential equations is solved on the interval $\tau \in [0,1]$.
 
@@ -49,11 +49,11 @@ $$ \dot{\hat{x}} = PH^TR^{-1}(y - h(\hat{x})) $$
 
 $$ \dot{\hat{P}} = - PH^TR^{-1}P $$
 
-![BRUF](/images/portfolio-2/ode-bruf.png){: .align-center width="300px"}
+![BRUF](/images/portfolio-2/ode-bruf.png){: .align-center width="500px"}
 
 We can also extend the continuous-time BRUF update to particle and ensemble filtering. In the figure below, the update is applied to a set of particles sampled from the prior distribution (o). The updated particles (•) fall nicely on the posterior distribution.
 
-![Particle flow](/images/portfolio-2/particle-flow.png){: .align-center width="300px"}
+![Particle flow](/images/portfolio-2/particle-flow.png){: .align-center width="500px"}
 
 Code for these examples is available on [Github](https://github.io/kristenmichaelson/bruf}.
 
