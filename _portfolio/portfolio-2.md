@@ -1,6 +1,6 @@
 ---
 title: "Recursive Update Filtering: A New Approach"
-excerpt: "Maximum _a posteriori_ estimation via homotopy<br/><img src='/images/ode-bruf.png' width='500'>"
+excerpt: "Maximum _a posteriori_ estimation via homotopy<br/><img src='/images/portfolio-2/ode-bruf.png' width='500'>"
 collection: portfolio
 ---
 Consider the _data assimilation_ (or _measurement update_ problem): given a prior state estimate with an associated uncertainty distribution, incorporate new information from a measurement. This new information should nudge the state estimate closer to the true state and reduce uncertainty.
