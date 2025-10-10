@@ -55,7 +55,7 @@ We can also extend the continuous-time BRUF update to particle and ensemble filt
 
 ![Particle flow](/images/portfolio-2/particle-flow.png){: .align-center width="500px"}
 
-Code for these examples is available on [Github](https://github.io/kristenmichaelson/bruf}.
+Code for these examples is available on [Github](https://github.io/kristenmichaelson/bruf).
 
 <u>Selected References</u>
 
