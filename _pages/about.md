@@ -15,7 +15,7 @@ Job Seeker Statement
 ======
 I'm actively seeking an engineering role in the San Francisco Bay Area. If you're hiring in the areas of aerospace guidance, navigation and control (GNC), estimation, or robotics, let's connect!
 
-Featured Project: Automating Spacecraft Conjunction Assessment with AI
+Featured Project: [Spacecraft Conjunction Assessment with AI](https://kristenmichaelson.github.io/portfolio/portfolio-1/)
 ======
 ![Spacecraft conjunction assessment](/images/cover-photo.png){: .align-right width="300px"}
 How can we use AI to predict when two satellites will get too close for comfort?
