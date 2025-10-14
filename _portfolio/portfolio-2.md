@@ -45,9 +45,9 @@ The intuition behind the BRUF is that by inflating the measurement noise covaria
 
 In later work, we presented a continuous formulation of the BRUF update. In this version, the following set of differential equations is solved on the interval \\(\tau \in [0,1]\\).
 
-$$ \dot{\hat{x}} = PH^TR^{-1}(y - h(\hat{x})) $$
+$$ \dot{\hat{x}} = \hat{P}H^TR^{-1}(y - h(\hat{x})) $$
 
-$$ \dot{\hat{P}} = - PH^TR^{-1}P $$
+$$ \dot{\hat{P}} = - \hat{P}H^TR^{-1}H\hat{P} $$
 
 ![BRUF](/images/portfolio-2/ode-bruf.png){: .align-center width="500px"}
 
