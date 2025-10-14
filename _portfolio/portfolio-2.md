@@ -17,7 +17,7 @@ where $H$ is the measurement Jacobian
 
 $$ H = \frac{\partial h}{\partial x}. $$
 
-${H}$ contains the set of derivatives of the measurement model $y = h(x) + \eta$ with respect to the states. The measurement has its own uncertainty, $\eta \sim \mathcal{N}(0,R)$. The figure below shows the result of the EKF update for a range measurement.
+\(H\) contains the set of derivatives of the measurement model $y = h(x) + \eta$ with respect to the states. The measurement has its own uncertainty, $\eta \sim \mathcal{N}(0,R)$. The figure below shows the result of the EKF update for a range measurement.
 
 ![EKF](/images/portfolio-2/ekf.png){: .align-center width="500px"}
 
