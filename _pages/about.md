@@ -11,9 +11,9 @@ I'm an Aerospace Engineer and Researcher passionate about making autonomous syst
 
 In my dissertation work, I focused on ***data assimilation***. Data assimilation is the process of incorporating information from sensors into an estimate of the *state* of a dynamical system. Many of my research papers are available [online](https://scholar.google.com/citations?user=sxHDUVQAAAAJ). 
 
-Job Seeker Statement
+Current Role
 ======
-I'm actively seeking an engineering role in the San Francisco Bay Area. If you're hiring in the areas of aerospace guidance, navigation and control (GNC), estimation, or robotics, let's connect!
+I'm a Navigation Engineer at [Xona Space Systems](https://xonaspace.com)! 
 
 Featured Project: [Spacecraft Conjunction Assessment with AI](https://kristenmichaelson.github.io/portfolio/portfolio-1/)
 ======
