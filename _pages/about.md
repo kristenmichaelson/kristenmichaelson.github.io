@@ -13,7 +13,7 @@ In my dissertation work, I focused on ***data assimilation***. Data assimilation
 
 Current Role
 ======
-I'm a Navigation Engineer at [Xona Space Systems](https://xonaspace.com)! 
+I'm a Navigation Engineer at [Xona Space Systems](https://xonaspace.com)
 
 Featured Project: [Spacecraft Conjunction Assessment with AI](https://kristenmichaelson.github.io/portfolio/portfolio-1/)
 ======
