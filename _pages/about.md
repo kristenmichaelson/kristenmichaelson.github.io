@@ -17,6 +17,7 @@ I'm a Navigation Engineer at [Xona](https://xonaspace.com)!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ff9nPmY_aMs?si=5S2f7zWWvMlNDt98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
 Featured Project: [Spacecraft Conjunction Assessment with AI](https://kristenmichaelson.github.io/portfolio/portfolio-1/)
 ======
 ![Spacecraft conjunction assessment](/images/cover-photo.png){: .align-right width="300px"}
